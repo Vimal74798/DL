@@ -37,4 +37,4 @@ if __name__ == "__main__":
     print("Actual labels:   ", y)
 OUTPUT:
 Predicted labels: [ 1.  1.  1. -1. -1. -1.]
-Actual labels:    [ 1  1  1 -1 -1 -1]
+Actual labels:    [ 1  1  1 -1 -1 -1].
