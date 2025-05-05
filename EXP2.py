@@ -20,7 +20,7 @@ class FeedForwardNN:
 
     def backward(self, X, y, output):
         """Backward pass using gradient descent."""
-        # Compute error
+        
         error = y - output
         output_gradient = -2 * error  # Derivative of Mean Squared Error (MSE)
 
