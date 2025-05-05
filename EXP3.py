@@ -66,7 +66,7 @@ pred_labels_tr = np.argmax(model.predict(X_train), axis=1)
 # Predict class labels on test data
 pred_labels_te = np.argmax(model.predict(X_test), axis=1)
 
-# Print model summary
+
 print("\nModel Summary")
 model.summary()
 
